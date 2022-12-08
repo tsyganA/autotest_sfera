@@ -111,7 +111,7 @@ describe('Authentication', function() {
   });
  
  
-   it('Show wrong password registration!!!!!!!', function(done) {
+   it('Authentication!!!!!!!', function(done) {
 
 (async () => {
   this.retries(2);
