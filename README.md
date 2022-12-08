@@ -26,8 +26,8 @@ npm i chai
 
 ### Build
 
-Run mocha:
+Run:
 ```shell
-mocha nameFile.js
+mocha sfera.js
 ```
 
