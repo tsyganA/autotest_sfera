@@ -2,22 +2,22 @@ const puppeteer = require('puppeteer');
 const assert = require('chai').assert;
 
 
-// async function sizeBrowser (page) {
-// await page.setViewport({
-//   width: 1366,
-//   height: 610,
-//   deviceScaleFactor: 1,
-// });
-// }
-
-
 async function sizeBrowser (page) {
 await page.setViewport({
-  width: 1420,
-  height: 1080,
+  width: 1366,
+  height: 610,
   deviceScaleFactor: 1,
 });
 }
+
+
+// async function sizeBrowser (page) {
+// await page.setViewport({
+//   width: 1420,
+//   height: 1080,
+//   deviceScaleFactor: 1,
+// });
+// }
 
 
 
@@ -224,7 +224,7 @@ describe('Authentication', function() {
 
 (async () => {
   this.retries(2);
-     this.timeout(160000);
+     this.timeout(260000);
      
   const context = await browser.createIncognitoBrowserContext();
   const page = await context.newPage();
